@@ -1,6 +1,6 @@
 <template>
   <NavBar/>
-  <router-view/>
+  <div class="container"><router-view/></div>
 </template>
 <script>
 import NavBar from "./components/NavBar";
